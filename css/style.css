@@ -185,7 +185,7 @@ main {
 }
 
 .main-img img {
-    border-radius: 50%;
+    border-radius: 25%;
     width: 120px;
 }
 
@@ -200,7 +200,7 @@ main {
 }
 
 .img-title-big {
-    font-size: 5rem;
+    font-size: 3.5rem;
     font-family: 'Pacifico-Regular' !important;
 }
 
@@ -531,7 +531,7 @@ span.time-text {
 /*分割线*/
 .line {
     margin: 1rem 0.25rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
     font-size: 1.10rem;
     display: flex;
     align-items: center;

@@ -297,12 +297,12 @@ $('#switchmore').on('click', function () {
     shoemore = !shoemore;
     if (shoemore && $(document).width() >= 990) {
         $('#container').attr('class', 'container mores');
-        $("#change").html("Oops&nbsp;!");
-        $("#change1").html("哎呀，这都被你发现了（ 再点击一次可关闭 ）");
+        $("#change").html("Select&nbsp;!");
+        $("#change1").html("哎呀，快选择你要的宝可梦吧（ 再点击一次可关闭 ）");
     } else {
         $('#container').attr('class', 'container');
-        $("#change").html("Hello&nbsp;World&nbsp;!");
-        $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+        $("#change").html("Customize&nbsp;Pokemon&nbsp;!");
+        $("#change1").html("点击这里，选择你心仪的宝可梦开始定制吧");
     }
 });
 
@@ -350,8 +350,8 @@ window.addEventListener('load', function () {
         if (window.innerWidth <= 990) {
             //移动端隐藏更多页面
             $('#container').attr('class', 'container');
-            $("#change").html("Hello&nbsp;World&nbsp;!");
-            $("#change1").html("一个建立于 21 世纪的小站，存活于互联网的边缘");
+            $("#change").html("Customize&nbsp;Pokemon&nbsp;!");
+            $("#change1").html("点击这里，选择你心仪的宝可梦开始定制吧");
 
             //移动端隐藏弹窗页面
             $('#box').css("display", "none");
